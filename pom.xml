@@ -40,7 +40,6 @@
         <failOnMissingWebXml>false</failOnMissingWebXml>
 
         <version.io.opentracing>0.31.0-RC1</version.io.opentracing>
-        <version.io.opentracing.ejb>0.0.6</version.io.opentracing.ejb>
         <version.io.opentracing.tracerresolver>0.1.0</version.io.opentracing.tracerresolver>
 
         <!-- plugins -->
@@ -79,10 +78,17 @@
                 <artifactId>opentracing-util</artifactId>
                 <version>${version.io.opentracing}</version>
             </dependency>
+            <!-- https://mvnrepository.com/artifact/javax.interceptor/javax.interceptor-api-->
             <dependency>
-                <groupId>io.opentracing.contrib</groupId>
-                <artifactId>opentracing-ejb</artifactId>
-                <version>${version.io.opentracing.ejb}</version>
+                 <groupId>javax.interceptor</groupId>
+                 <artifactId>javax.interceptor-api</artifactId>
+                 <version>1.2-b06</version>
+            </dependency>
+
+            <dependency>
+                <groupId>javax.interceptor</groupId>
+                <artifactId>interceptor-api</artifactId>
+                <version>1.2-b02</version>
             </dependency>
             <dependency>
                 <groupId>io.opentracing.contrib</groupId>

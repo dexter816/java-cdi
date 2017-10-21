@@ -17,7 +17,7 @@ public class BaseTest {
                 .addPackage(Traced.class.getPackage())
                 .addPackage(TracerInitializer.class.getPackage())
                 .addAsLibraries(library("io.opentracing:opentracing-api"))
-                .addAsLibraries(library("io.opentracing.contrib:opentracing-ejb"))
+//              .addAsLibraries(library("io.opentracing.contrib:opentracing-ejb"))
                 .addAsLibraries(library("io.opentracing.contrib:opentracing-tracerresolver"))
                 .addAsLibraries(library("io.opentracing:opentracing-util"))
                 ;

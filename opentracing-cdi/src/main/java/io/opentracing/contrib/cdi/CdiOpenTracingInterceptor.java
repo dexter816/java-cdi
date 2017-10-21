@@ -1,7 +1,5 @@
 package io.opentracing.contrib.cdi;
 
-import io.opentracing.contrib.ejb.OpenTracingInterceptor;
-
 import javax.interceptor.AroundInvoke;
 import javax.interceptor.Interceptor;
 import javax.interceptor.InvocationContext;

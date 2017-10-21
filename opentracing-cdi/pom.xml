@@ -29,9 +29,16 @@
             <groupId>io.opentracing</groupId>
             <artifactId>opentracing-util</artifactId>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/javax.interceptor/javax.interceptor-api-->
         <dependency>
-            <groupId>io.opentracing.contrib</groupId>
-            <artifactId>opentracing-ejb</artifactId>
+            <groupId>javax.interceptor</groupId>
+            <artifactId>javax.interceptor-api</artifactId>
+            <version>1.2-b06</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.interceptor</groupId>
+            <artifactId>interceptor-api</artifactId>
         </dependency>
         <dependency>
             <groupId>io.opentracing.contrib</groupId>
